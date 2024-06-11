@@ -201,6 +201,10 @@ const WALLETS = [
 	'0x0a1963dce2db2aa6b17c899ec98e652c4ccd6bf6'
 ];
 const TRANSACTIONS = {
+	'0x2d2c6933f756d116578dfa293bec39c38d1316a6': [ // jane
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 200, ts: 1718092793327},
+	],
+
 	'0xeafc1aeacae73bfbeee714526b1ca771304d332c': [  // rain
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 150, ts: 1715410842829},
 	],
@@ -232,6 +236,7 @@ const TRANSACTIONS = {
 	//  ],
 };
 const MINS = {
+	'0x2d2c6933f756d116578dfa293bec39c38d1316a6': 425, // jane
 	'0xeafc1aeacae73bfbeee714526b1ca771304d332c': 400, // rain
 	'0x1de279ae00e3659a6a513b31a85dc88427e08f9e': 250, // anas
 	'0x7deab2e965e337154e1fff1764a913e18f88a179': 300, // liz
