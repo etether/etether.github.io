@@ -216,6 +216,7 @@ const TRANSACTIONS = {
 
 
 	'0x2d2c6933f756d116578dfa293bec39c38d1316a6': [ // jane
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 70, ts: 1718220198484},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 200, ts: 1718092793327},
 	],
 
