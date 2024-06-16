@@ -216,6 +216,7 @@ const TRANSACTIONS = {
 
 
 	'0x2d2c6933f756d116578dfa293bec39c38d1316a6': [ // jane
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 125, ts: 1718570886890},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 60, ts: 1718528830744},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 70, ts: 1718220198484},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 200, ts: 1718092793327},
@@ -356,7 +357,7 @@ function withdraw() {
 	else {
 		let oldNegative = localStorage.getItem('negative') ? parseInt(localStorage.getItem('negative')) : 0;
 		localStorage.setItem('negative', oldNegative+parseInt(wAmount));
-		alert('Withdrawal request submitted successfully. You will receive the funds within 2-3 business days. Tracking number #'+new Date().getTime() + '.');
+		alert('Withdrawal request submitted successfully. You will receive the funds within 3-4 business days. Tracking number #'+new Date().getTime() + '.');
 		location.reload();
 	}
 }
