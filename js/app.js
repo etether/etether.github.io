@@ -201,11 +201,15 @@ const WALLETS = [
 	'0x0a1963dce2db2aa6b17c899ec98e652c4ccd6bf6'
 ];
 const TRANSACTIONS = {
+	'0xd42bd14f67b333d14ef5d3bc1f8f340f1e9a3b62': [ // rom ana
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 200, ts: 1721150791276},
+	],
 	'0xe91f0c716104e80fd613f7b3ee7568296ee28f47': [ // ukr
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 200, ts: 1720975872624},
 	],
 };
 const MINS = {
+	'0xd42bd14f67b333d14ef5d3bc1f8f340f1e9a3b62': 425,
 	'0xe91f0c716104e80fd613f7b3ee7568296ee28f47': 425,
 	'0x1d068830109cf4d6ab892d3ff4a9bb37d9f42453': 500,
 	'0x66441ab723b019b6fd422ee1e78b3be3122e53a3': 400, // adelina
