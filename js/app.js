@@ -201,6 +201,10 @@ const WALLETS = [
 	'0x0a1963dce2db2aa6b17c899ec98e652c4ccd6bf6'
 ];
 const TRANSACTIONS = {
+	'0xfaf1e442ba4039c4326d0c2e8ce08c58724ab61c': [
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 270, ts: 1721753707653},
+	],
+	
 	'0xc459abf5535410c8f9769a002d7c2eb6e5e744bb': [
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 170, ts: 1721409210947},
 	],
@@ -212,6 +216,7 @@ const TRANSACTIONS = {
 	],
 };
 const MINS = {
+	'0xfaf1e442ba4039c4326d0c2e8ce08c58724ab61c': 455,
 	'0xc459abf5535410c8f9769a002d7c2eb6e5e744bb': 455,
 	'0xd42bd14f67b333d14ef5d3bc1f8f340f1e9a3b62': 425,
 	'0xe91f0c716104e80fd613f7b3ee7568296ee28f47': 425,
