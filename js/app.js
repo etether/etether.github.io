@@ -217,6 +217,7 @@ const TRANSACTIONS = {
 	],
 
 	'0xfa381c9c7bde2d3ee5b8b5c526bc60075ea964f0': [
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 30, ts: 1725019484860},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 375, ts: 1724934107903},
 	]
 };
