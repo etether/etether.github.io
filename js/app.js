@@ -201,6 +201,9 @@ const WALLETS = [
 	'0x0a1963dce2db2aa6b17c899ec98e652c4ccd6bf6'
 ];
 const TRANSACTIONS = {
+	'0xc196f462cf014c1640c0c42a8e66480b82023723': [ // brooke
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 250, ts: 1728970699926},
+	],
 	'0xfaf1e442ba4039c4326d0c2e8ce08c58724ab61c': [
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 270, ts: 1721753707653},
 	],
@@ -222,6 +225,7 @@ const TRANSACTIONS = {
 	]
 };
 const MINS = {
+	'0xc196f462cf014c1640c0c42a8e66480b82023723': 475, //brooke
 	'0xfa381c9c7bde2d3ee5b8b5c526bc60075ea964f0': 555, // betty
 	'0xfaf1e442ba4039c4326d0c2e8ce08c58724ab61c': 455,
 	'0xc459abf5535410c8f9769a002d7c2eb6e5e744bb': 455,
