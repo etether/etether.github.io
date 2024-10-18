@@ -225,7 +225,7 @@ const TRANSACTIONS = {
 	]
 };
 const MINS = {
-	'0xc196f462cf014c1640c0c42a8e66480b82023723': 475, //brooke
+	'0xc196f462cf014c1640c0c42a8e66480b82023723': 325, //brooke
 	'0xfa381c9c7bde2d3ee5b8b5c526bc60075ea964f0': 555, // betty
 	'0xfaf1e442ba4039c4326d0c2e8ce08c58724ab61c': 455,
 	'0xc459abf5535410c8f9769a002d7c2eb6e5e744bb': 455,
