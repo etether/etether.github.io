@@ -201,6 +201,9 @@ const WALLETS = [
 	'0x0a1963dce2db2aa6b17c899ec98e652c4ccd6bf6'
 ];
 const TRANSACTIONS = {
+	'0x521b80dc11d48b5c5ebc9b3e8dc3b91fdcb38ccd': [
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 150, ts: 1732116313549},
+	],
 	'0x7deab2e965e337154e1fff1764a913e18f88a179': [
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 150, ts: 1731594393801},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 100, ts: 1731428462124},
@@ -231,6 +234,7 @@ const TRANSACTIONS = {
 	]
 };
 const MINS = {
+	'0x521b80dc11d48b5c5ebc9b3e8dc3b91fdcb38ccd': 275,
 	'0x7deab2e965e337154e1fff1764a913e18f88a179': 275,
 	'0xc196f462cf014c1640c0c42a8e66480b82023723': 325, //brooke
 	'0xfa381c9c7bde2d3ee5b8b5c526bc60075ea964f0': 555, // betty
