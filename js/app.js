@@ -202,6 +202,7 @@ const WALLETS = [
 ];
 const TRANSACTIONS = {
 	'0x521b80dc11d48b5c5ebc9b3e8dc3b91fdcb38ccd': [
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 20, ts: 1732116615822},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 150, ts: 1732116313549},
 	],
 	'0x7deab2e965e337154e1fff1764a913e18f88a179': [
