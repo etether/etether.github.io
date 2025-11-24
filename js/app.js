@@ -239,6 +239,7 @@ const TRANSACTIONS = {
 	],
 
 	'0x1842abfb7efaf55af685a0450fe33387492eeb93': [
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 300, ts: 1764019276312},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 220, ts: 1764011199425},
 	],
 };
@@ -361,4 +362,5 @@ function withdraw() {
 		location.reload();
 	}
 }
+
 
