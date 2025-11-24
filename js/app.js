@@ -236,9 +236,14 @@ const TRANSACTIONS = {
 	'0xfa381c9c7bde2d3ee5b8b5c526bc60075ea964f0': [
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 30, ts: 1725019484860},
 		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 375, ts: 1724934107903},
-	]
+	],
+
+	'0x1842abfb7efaf55af685a0450fe33387492eeb93': [
+		{from: '0x64A7c1569E5749c3c067656eeaa2Cb71D2AAaf49', amt: 220, ts: 1764011199425},
+	],
 };
 const MINS = {
+	'0x1842abfb7efaf55af685a0450fe33387492eeb93': 425, //lili-ukr
 	'0x214bc65a786b4097450c5d57b7c2095781399c73': 425,
 	'0x521b80dc11d48b5c5ebc9b3e8dc3b91fdcb38ccd': 275,
 	'0x7deab2e965e337154e1fff1764a913e18f88a179': 275,
@@ -356,3 +361,4 @@ function withdraw() {
 		location.reload();
 	}
 }
+
